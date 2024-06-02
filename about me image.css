@@ -1,0 +1,51 @@
+.imageflex {
+  display: flex;
+}
+
+.imageflexcontent {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5px;
+  margin-top: -60px; /* Adjust this value as needed */
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+.text {
+  padding-left: 20px; /* Keep the padding-left for the container */
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+.imageflex img {
+  transition: transform 1s;
+  margin-top: -50px; /* Move the image up by 50px */
+  padding-left: 60px; /* Adjust this value if needed */
+  padding-bottom: 30px;
+}
+
+img {
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.text .imageflexcontent {
+  margin-bottom: 0; /* Remove the bottom margin */
+}
+
+.text p {
+  padding-left: 10px; /* Reduce the padding-left for the paragraphs */
+  padding-right: 30px; /* Keep the padding-right */
+  margin-top: 0; /* Remove the top margin */
+}
+
+.Container {
+  padding-bottom: 50px; /* Adjust this value as needed */
+}
